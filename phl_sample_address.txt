@@ -1,0 +1,21 @@
+﻿recId	searchText
+1	Cara & carlo store, 184 C P. Rosales St. Sta Ana Kaliwa , Pateros, 1621
+2	1136 Normandy South Street, Parkhomes Subdivision, Tunasan, Muntinlupa City, Muntinlupa, 1773
+3	Wow center bldg, km 15 east service road corner marian road 2, san martin de porres , Parañaque City , 1700
+4	Maybunga barangay hall, Dr.sixto antonio ave., Maybunga, PASIG CITY, 1600
+5	located beside St. Gemille school w/c is infront of Flying V gasoline station., 20 San Guillermo Ave., Buting, Pasig, 1600
+6	Medtronic (VISTAMALL TAGUIG), 29/F One World Place Bldg, 32Nd Street, BGC Taguig 1634, 29th floor, Taguig, 1634
+7	Unit 711, Aria bldg, Amaia Steps Pasig, Eusebio Ave., san miguel, Pasig, 1600
+8	14 South AA Street Brgy Paligsahan, Unit 302 Crystal Mansion Condominium, Quezon City, 1103
+9	33E Aspire Tower Libis cor Calle Industria Bagumbayan, Quezon City, 1110
+10	HBC (Waterfun), B8 L15 EP Housing Ph 2, Bgy. Pinagsama, Taguig City, 1630
+11	near Along Leongson, 18 Mayor Angeles St. San Roque Navotas City, Navotas, 1489
+12	2272 Llinceo St, Pandacan, manila, 1011
+13	in front of aqualiz water station, 2026 Anonas st. Sta mesa, Philippines, Manila, 1016
+14	(gray gate) village is nearest to Dahlia Ave., 12 Queensville St. , Greenview Executive Village, Quezon City, 1116
+15	ActivAsia, 291 St. Joseph Street, Oranbo Drive , Pasig City, 1600
+16	98 concepcion street morning breeze subd, Caloocan city, 1400
+17	AA1-203 Hardin ng Rosas, Purok Aguinaldo, Brgy. UP Diliman, Quezon City, 1101
+18	1390 Kalachuchi St. Bgy 184, Pasay, 1301
+19	16 paso de blas, corner t. santiago, valenzuea city, 1442
+20	6B Pearl St, East Fairview Subdivision, Brgy. Fairview, Quezon City, 1118

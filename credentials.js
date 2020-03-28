@@ -1,0 +1,3 @@
+//Freemium
+var APPLICATION_ID = 'Lt1lfxLZgtZ4kUYaV42W',
+    APPLICATION_CODE = 'UUIGwsIO3gmPTx0FmnFTjg';

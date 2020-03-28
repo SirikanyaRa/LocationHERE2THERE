@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+  <title>Using Geocoder and Places (Search) APIs together</title>
+  <link rel="stylesheet" type="text/css" href="https://js.api.here.com/v3/3.0/mapsjs-ui.css" />
+  <script type="text/javascript" src="https://js.api.here.com/v3/3.0/mapsjs-core.js"></script>
+  <script type="text/javascript" src="https://js.api.here.com/v3/3.0/mapsjs-service.js"></script>
+  <script type="text/javascript" src="https://js.api.here.com/v3/3.0/mapsjs-ui.js"></script>
+  <script type="text/javascript" src="https://js.api.here.com/v3/3.0/mapsjs-mapevents.js"></script>
+  <script type="text/javascript" src="https://js.api.here.com/v3/3.0/mapsjs-places.js"></script>
+</head>
+
+<body style="margin:0; font-family:MS Sans Serif; font-size:14px">
+  <div id="map" style="position:absolute; width:55%; height:100%; background:rgb(12, 12, 12)141, 141, 141); overflow:auto"></div>
+  <div style="position:absolute; width:45%; left:55%; height:100%; background: inherit; overflow:auto">
+  	
+  
+    <div style="font-size:18px">
+	
+	<div style = "font-size:18px"
+
+		
+      <p><b>Using Geocoder and Places(Search) APIs together</b></p>
+
+    </div> 
+
+
+    <div id="freeformRequestPanel" style="display:block">
+      <p><b>Geocode/Places Search using free-form input</b></p>
+      <p><input name="freeformInput" id="freeformInput" type="text" size="45"></p>
+      <button onclick="removeMarker();clearPanel();freeformInput()">Request</button>
+    </div>
+
+    <div id="partialRequestPanel" style="display:none">
+      <p>
+        <b>Geocode using partial address information</b>
+        <table style="border:0">
+          <tr>
+            <td>House Number</td>
+            <td><input name="houseNumber" id="houseNumber" type="text"></td>
+          </tr>
+          <tr>
+            <td>Street</td>
+            <td><input name="street" id="street" type="text"></td>
+          </tr>
+          <tr>
+            <td>District</td>
+            <td><input name="district" id="district" type="text"></td>
+          </tr>
+          <tr>
+            <td>City</td>
+            <td><input name="city" id="city" type="text"></td>
+          </tr>
+          <tr>
+            <td>Postal Code</td>
+            <td><input name="postalCode" id="postalCode" type="text"></td>
+          </tr>
+          <tr>
+            <td>County</td>
+            <td><input name="county" id="county" type="text"></td>
+          </tr>
+          <tr>
+            <td>Country</td>
+            <td><input name="country" id="country" type="text"></td>
+            </td>
+          </tr>
+        </table>
+      </p>
+      <button onclick="removeMarker();clearPanel();partialInput()">Request</button>
+    </div>
+    <div>
+      <p><button onclick="toggleRequestPanel()">Toggle between Free-form input / Partial
+          address input</button></p>
+    </div>
+    <div id="resultPanel" style="display:none">
+      <div id="freeformInputPanel" style="display:none">
+        <p><b>Free-form Input</b><br><span id="freeformInputDisplay"></span></p>
+      </div>
+      <div id="geocodeResultPanel" style="display:none">
+        <p><img src="images/g_marker.svg">&nbsp<b><a href="#" onclick="map.setViewBounds(groupGeocode.getBounds())">Geocode
+              Result</a></b></p><span id="geocodeResult"></span>
+      </div>
+      <div id="placesResultPanel" style="display:none">
+        <p><img src="images/p_marker.svg">&nbsp<b><a href="#" onclick="map.setViewBounds(groupPlaces.getBounds())">Places
+              Result</a></b></p><span id="placesResult"></span>
+      </div>
+    </div>
+
+    <div style =   position: absolute; bottom: 0px>
+    <div style = "font-size:14px">
+ 
+    <p><b> Learn more about <a href="https://developer.here.com/?utm_medium=dev_event&utm_source=community-sea"> Location for Developers </a> </b></p> 
+    <p><b> Contact me : "SIRIKANYA" +60183638749  <a href="mailto:sirikanya.rattanawilai@here?Subject=Hello%20HERE" target="_top">@email:sirikanya.rattanawilai@here.com </a></b></p>
+  </div>
+  </div>
+  </div> 
+
+
+
+  </div>
+
+  <script type="text/javascript" src="credentials.js"></script>
+  <script type="text/javascript" src="H2T_Geocode.js"></script>
+</body>
+
+</html>
